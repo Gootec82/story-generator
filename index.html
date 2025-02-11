@@ -7,6 +7,7 @@
     <title>AI Story Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>
         AI DevSpark Story Generator
@@ -15,12 +16,13 @@
 
     <main>
         <form>
-            <input type="text" placeholder="Enter the topic of the story.." autofocus required autocomplete="off">
-            <input type="submit">
+            <input type="text" placeholder="Enter the topic of the story.." autofocus required autocomplete="off" class="generator" />
+            <input type="submit" class="submit-btn" />
         </form>
 
-        <div>
-            The Story will be here
+        <div class="devsparkstory">
+            The Story will be here <br>
+            Great story teller
         </div>
     </main>
     
@@ -29,6 +31,7 @@
     <a href="https://github.com/Gootec82/story-generator.git" target="_blank">Open source on github</a>
     and is <a href="https://devsparkaigenerator.netlify.app/" target="_blank">Hosted on Netlify</a>
     </Footer>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
